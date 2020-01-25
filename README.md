@@ -24,19 +24,27 @@ create-nuxt-app v2.12.0
 
 ## Build Setup
 
-``` bash
+### Development
+
+``` zsh
 # install dependencies
-$ yarn install
+% yarn install
 
 # serve with hot reload at localhost:3000
-$ yarn dev
+% yarn dev
+```
 
+Access to http://localhost:3000/
+
+### Production
+
+``` zsh
 # build for production and launch server
-$ yarn build
-$ yarn start
+% yarn build
+% yarn start
 
 # generate static project
-$ yarn generate
+% yarn generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
