@@ -2,6 +2,26 @@
 
 > My spectacular Nuxt.js project
 
+## How to create
+
+``` zsh
+% npx create-nuxt-app nuxt-sample
+
+create-nuxt-app v2.12.0
+✨  Generating Nuxt.js project in nuxt-sample
+? Project name nuxt-sample
+? Project description My spectacular Nuxt.js project
+? Author name take8
+? Choose the package manager Yarn
+? Choose UI framework None
+? Choose custom server framework None (Recommended)
+? Choose Nuxt.js modules Axios
+? Choose linting tools ESLint, Prettier
+? Choose test framework None
+? Choose rendering mode Universal (SSR)
+? Choose development tools jsconfig.json (Recommended for VS Code)
+```
+
 ## Build Setup
 
 ``` bash
