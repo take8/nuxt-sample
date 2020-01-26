@@ -48,3 +48,8 @@ Access to http://localhost:3000/
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+## ディレクトリ構成
+
+https://ja.nuxtjs.org/guide/directory-structure/
+
