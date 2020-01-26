@@ -61,3 +61,5 @@ https://ja.nuxtjs.org/guide/directory-structure/
 ``` bash
 .nuxt/router.js
 ```
+
+階層を彫りたい場合は、ディレクトリを作ってその中に `.vue` を置く。
