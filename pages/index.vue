@@ -21,6 +21,8 @@
         </a>
       </div>
     </div>
+    <hr />
+    <router-link to="/mypage">My Page</router-link>
   </div>
 </template>
 

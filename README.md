@@ -53,3 +53,11 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 
 https://ja.nuxtjs.org/guide/directory-structure/
 
+## ルーティング
+
+`pages` ディレクトリに `.vue` ファイルを配置するとvue-routerのファイルが自動生成される。  
+自動生成されるファイルは以下。
+
+``` bash
+.nuxt/router.js
+```
