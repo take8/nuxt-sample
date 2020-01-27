@@ -81,3 +81,13 @@ https://ja.nuxtjs.org/guide/views
 おおもとのテンプレートファイル。
 デフォルトは `.nuxt/views/app.template.html` に生成される。
 変更したい場合は、プロジェクトルートに `app.html` を作成する。
+
+### デフォルトレイアウト
+
+`layouts/default.vue`
+
+関係性: `app.html` の`{{ APP }}` <- `layouts/default.vue` の `<nuxt />` <- `pages/index.vue` など
+
+### エラーページ
+
+`layouts/error.vue`
