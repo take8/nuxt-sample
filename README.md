@@ -91,3 +91,7 @@ https://ja.nuxtjs.org/guide/views
 ### エラーページ
 
 `layouts/error.vue`
+
+### HTML head
+
+`nuxt.config.js`
