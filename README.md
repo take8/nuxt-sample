@@ -71,3 +71,27 @@ https://ja.nuxtjs.org/guide/directory-structure/
 ### URLパラメータ参照
 
 https://ja.nuxtjs.org/guide/routing#%E3%83%AB%E3%83%BC%E3%83%88%E3%83%91%E3%83%A9%E3%83%A1%E3%83%BC%E3%82%BF%E3%81%B8%E3%81%AE%E3%83%AD%E3%83%BC%E3%82%AB%E3%83%AB%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9
+
+## ビュー
+
+https://ja.nuxtjs.org/guide/views
+
+### アプリテンプレート
+
+おおもとのテンプレートファイル。
+デフォルトは `.nuxt/views/app.template.html` に生成される。
+変更したい場合は、プロジェクトルートに `app.html` を作成する。
+
+### デフォルトレイアウト
+
+`layouts/default.vue`
+
+関係性: `app.html` の`{{ APP }}` <- `layouts/default.vue` の `<nuxt />` <- `pages/index.vue` など
+
+### エラーページ
+
+`layouts/error.vue`
+
+### HTML head
+
+`nuxt.config.js`
