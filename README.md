@@ -95,3 +95,7 @@ https://ja.nuxtjs.org/guide/views
 ### HTML head
 
 `nuxt.config.js`
+
+## 非同期なデータ
+
+https://ja.nuxtjs.org/guide/async-data
