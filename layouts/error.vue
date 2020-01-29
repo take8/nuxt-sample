@@ -6,6 +6,11 @@
 
 <script>
 export default {
-  props: { error: Error }
+  props: {
+    error: {
+      type: Object,
+      default: null
+    }
+  }
 }
 </script>
