@@ -8,9 +8,14 @@ const createStore = () => {
         message: 'Hello Vuex!'
       }
     },
+    // mutations: {
+    //   updateMessage: (state) => {
+    //     state.message = 'Updated!'
+    //   }
+    // }
     mutations: {
-      updateMessage: (state) => {
-        state.message = 'Updated!'
+      updateMessage: (state, payload) => {
+        state.message = payload
       }
     }
   })
