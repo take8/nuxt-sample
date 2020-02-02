@@ -103,3 +103,17 @@ https://ja.nuxtjs.org/guide/async-data
 ## アセット
 
 https://ja.nuxtjs.org/guide/assets/
+
+## Vuexストア
+
+https://ja.nuxtjs.org/guide/vuex-store
+
+### Vuexのポイント
+
+State: アプリケーションの状態を保持。信頼できる唯一の情報源。
+
+- アプリケーションの状態を1つの場所に置いてしまうイメージ。
+- Storeはアプリケーションごとに1つにする。
+
+- Actions ... 外部APIとの通信、ミューテーションの呼び出し。非同期処理を書くところ。
+- Mutations ... ストアの状態を唯一変更できる存在。
