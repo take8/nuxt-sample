@@ -119,3 +119,5 @@ State: アプリケーションの状態を保持。信頼できる唯一の情�
 - Mutations ... ストアの状態を唯一変更できる存在。
 
 Mutationsは`commit()`で呼び出す。
+
+Actionsは`dispatch()`で呼び出す。
