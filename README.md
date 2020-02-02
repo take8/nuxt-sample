@@ -99,3 +99,7 @@ https://ja.nuxtjs.org/guide/views
 ## 非同期なデータ
 
 https://ja.nuxtjs.org/guide/async-data
+
+## アセット
+
+https://ja.nuxtjs.org/guide/assets/
