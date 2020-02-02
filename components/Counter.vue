@@ -6,6 +6,9 @@
         >Counter: <span>{{ $store.state.counter.count }}</span>
       </span>
       <button v-on:click="$store.commit('counter/increment')">+1</button>
+      <button v-on:click="$store.commit('counter/reset')" type="reset">
+        reset
+      </button>
     </div>
   </div>
 </template>
